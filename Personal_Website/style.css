@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+h1{
+    color: #061b62;
+}
+h3{
+    color: #0c2980;
+}
+#container{
+    height: 14em;
+    background-color: #1382b2;
+    position: relative;
+}
+#container div{
+    position: absolute;
+    top: 14%;
+    left: 67%;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+#container img{
+    width: 219px;
+    height: 232px;
+    margin-left: 104px;
+    margin-top: 40px;
+    border-radius: 100%;
+    float: left;
+}
+#menu-container a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 1.2em Verdana, sans-serif;
+    color: gray;
+    margin: auto 50px;
+}
+#name{
+    display: inline-block;
+    font: bold 1.5rem Verdana, sans-serif;
+    position: absolute;
+    top: 278px;
+    left: 111px;
+}
+section{
+    margin: 3em;
+    text-align: justify;
+    font: 1.2rem/1.5 Calibri, sans-serif;
+}
+#welcome{
+    margin-left: 43%;
+}
+#Education{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Education img{
+    max-width: 487px;
+}
+.photo-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #d5dfea;
+    border-radius: 17px;
+}
+.photo-container img{
+    max-width: 600px;
+    min-width: 196px;
+    max-height: 400px;
+    margin: 20px 10px;
+    border-radius: 13px;
+}
+#Contact{
+    background-color: #413b3b;
+    color: white;
+    margin: 0;
+    padding: 2em;
+}
+#Contact a{
+    color: #ef580c;
+}
+#Contact h1{
+    color: white;
+}
